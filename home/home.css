@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    font-style:italic;
+  }
+  p{
+    line-height:2rem;
+     font-size: 1.2rem;
+      color:white;
+  
+  }
+  header {
+    background-color: #082B59;
+   border-bottom: 10px solid #d98555;
+  }
+  nav {
+    margin: 0 1rem;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  
+  }
+  nav a {
+  
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    color: #d98555;
+  }
+  
+  nav .logo a {
+  margin: 0;
+  }
+  nav .logo img {
+    max-width: 150px;
+  }
+  .main-bkgd {
+    background: #ffffff url(./images/Coffee_Beans_Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  .main {
+    max-width: 900px;
+    margin: 0,0,0,1rem;
+    padding-top: 3rem;
+     padding-bottom: 3rem;   
+    padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+  
+  }
+  article{
+    background: rgba(217,133,85,.8);
+    padding:1rem;
+    border-radius:20px;
+  }
+  .button {
+    display: inline-block;
+    background-color: #59331D;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #59331d;
+  }
+  .button:hover {
+    background-color: #f2f2f2;
+    color: #59331d;
+  }
+  
+  footer {
+   background-color: #082B59;
+    text-align: center;
+    border-top: 10px solid #d98555;
+  }
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  footer a {
+    color: #f2f2f2;
+    font-size: 2rem;
+    display: block;
+    margin: 0 1rem 3rem 1rem;
+  }
+  .tm{
+      color: #f2f2f2;
+  }
+  
+  @media (min-width: 620px) {
+   
+    h1 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-style:italic;
+  }
+    p{
+    line-height:2rem;
+     font-size: 1.3rem;
+      color:white;
+  
+  }
+    nav {
+      margin-left: 0;
+    }
+    
+    nav ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+   
+    nav a {
+      margin: 0 0 0 0;
+    }
+   
+    .logo {
+      flex-basis: 100%;
+      text-align: center;
+    }
+    .main {
+    max-width: 900px;
+    margin: 0,0,0,0rem;
+    padding-top: 3.5rem;
+     padding-bottom: 3.5rem;   
+    padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    
+  }
+  }
+  
+  
+  @media (min-width: 900px) {
+   
+    h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    font-style:italic;
+  }
+    p{
+    line-height:2rem;
+     font-size: 1.3rem;
+      color:white;
+  
+  }
+    nav ul {
+      justify-content: flex-start;
+    }
+   
+    nav a {
+      margin-top: 4.5rem;
+    }
+    .logo {
+      flex-basis: auto;
+      margin-right: auto;
+    }
+    article {
+    flex-basis: 56%;
+      margin-left:0rem;
+      padding:2rem;
+  }
+      }
